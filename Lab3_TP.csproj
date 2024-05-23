@@ -47,6 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="src\core\commads\IChartCommand.cs" />
+    <Compile Include="src\core\commads\salaries\SalariesCommand.cs" />
     <Compile Include="src\core\presenter\ChartPresenter.cs" />
     <Compile Include="src\core\presenter\IChartPresenter.cs" />
     <Compile Include="src\view\IChartView.cs" />
@@ -86,7 +88,6 @@
   <ItemGroup>
     <Folder Include="src\core\commads\infections\" />
     <Folder Include="src\core\commads\population\" />
-    <Folder Include="src\core\commads\salaries\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
